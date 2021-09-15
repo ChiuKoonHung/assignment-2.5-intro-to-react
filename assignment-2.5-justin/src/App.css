@@ -1,0 +1,72 @@
+.whole-container {
+  margin: 60px auto;
+  max-width: 65%;
+}
+
+.top-container .headerTop {
+  width: 45%;
+  text-align: center;
+  margin: 30px auto;
+  font-size: 3.5rem;
+}
+
+.top-container .image1 {
+  height: 450px;
+  width: 100%;
+}
+
+.middle-container {
+  display: flex;
+  flex-direction: row;
+  margin: -300px auto;
+  justify-content: center;
+} 
+
+.middle-container .image2 {
+  border: 1px solid black;
+  height: 380px;
+  width: 30%;
+  margin-right: 10px;
+}
+.middle-container .text-box1 {
+  background-color: white;
+  border: 1px solid black;
+  height: 380px;
+  width: 30%;
+  margin-left: 10px;
+}
+.middle-container .text-box1 .text1 {
+  text-align: center;
+  padding: 60px 30px;
+  font-size: x-large;
+  font-weight: bold;
+}
+.middle-container .text-box1 .text1 .btn {
+  color: rgb(255, 255, 255); font-size: 16px; line-height: 16px; padding: 6px; border-radius: 7px; font-family: Georgia, serif; font-weight: normal; text-decoration: none; font-style: normal; font-variant: normal; text-transform: none; background-image: linear-gradient(to right, rgb(28, 110, 164) 0%, rgb(35, 136, 203) 30%, rgb(20, 78, 117) 100%); box-shadow: rgba(0, 0, 0, 0) 5px 9px 15px 5px; border: 2px solid rgb(28, 110, 164); display: inline-block;
+}
+
+.bottom-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 400px auto;
+  width: 100%;
+}
+
+.bottom-container .text-box2 {
+  width: 45%;
+  text-align: center;
+  margin-right: 30px;
+  margin: 50px auto;
+}
+
+.bottom-container .text-box2 .btn {
+  color: rgb(255, 255, 255); font-size: 16px; line-height: 16px; padding: 6px; border-radius: 7px; font-family: Georgia, serif; font-weight: normal; text-decoration: none; font-style: normal; font-variant: normal; text-transform: none; background-image: linear-gradient(to right, rgb(28, 110, 164) 0%, rgb(35, 136, 203) 30%, rgb(20, 78, 117) 100%); box-shadow: rgba(0, 0, 0, 0) 5px 9px 15px 5px; border: 2px solid rgb(28, 110, 164); display: inline-block;
+}
+
+.bottom-container .image3 {
+  height: 500px;
+  width: 45%;
+  margin-left: 30px;
+  
+}
